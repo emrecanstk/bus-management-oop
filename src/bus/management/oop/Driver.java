@@ -1,7 +1,7 @@
 package bus.management.oop;
 
-public class BusCompany {
+public class Driver {
 
-
+    
 
 }

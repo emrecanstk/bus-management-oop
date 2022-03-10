@@ -14,5 +14,14 @@ public class Bus {
     Bus(int id) {
         this.id = id;
     }
-    
+
+    public void StartJourney(Journey journey, Driver driver) {
+        if(driver.isAvailable == true) {
+            this.haveJourney = true;
+            this.spentMoney += journey.fuelMoney;
+
+        }
+
+    }
+
 }

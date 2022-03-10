@@ -1,7 +1,7 @@
 package bus.management.oop;
 
-public class Bus {
+public class Client {
 
-
+    
 
 }

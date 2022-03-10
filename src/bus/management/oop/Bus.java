@@ -14,5 +14,5 @@ public class Bus {
     Bus(int id) {
         this.id = id;
     }
-
+    
 }

@@ -10,6 +10,7 @@ public class Bus {
     int earnedMoney;
     int spentMoney;
     int totalMoney;
+    boolean haveJourney = false;
     List<String> clientList = new ArrayList<String>();
 
     Bus(int id) {

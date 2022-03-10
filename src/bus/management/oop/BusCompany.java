@@ -11,6 +11,7 @@ public class BusCompany {
     int spentMoney;
     int totalMoney;
     List<String> driverList = new ArrayList<String>();
+    List<String> busList = new ArrayList<String>();
 
     private static BusCompany company = new BusCompany();
 

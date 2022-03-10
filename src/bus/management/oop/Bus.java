@@ -1,5 +1,8 @@
 package bus.management.oop;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Bus {
     int id;
     int journeyId;
@@ -7,6 +10,7 @@ public class Bus {
     int earnedMoney;
     int spentMoney;
     int totalMoney;
+    List<String> clientList = new ArrayList<String>();
 
     Bus(int id) {
         this.id = id;

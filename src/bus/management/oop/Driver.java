@@ -5,4 +5,9 @@ public class Driver {
     String name;
     int salary;
 
+    Driver(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
 }

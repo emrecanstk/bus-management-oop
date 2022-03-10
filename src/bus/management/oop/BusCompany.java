@@ -5,12 +5,12 @@ import java.util.List;
 
 public class BusCompany {
 
-    static String name = "Kamil Koc";
-    static String phoneNumber = "+90 534 252 5094";
+    String name;
+    String phoneNumber;
     int earnedMoney;
     int spentMoney;
     int totalMoney;
     List<String> driverList = new ArrayList<String>();
     List<String> busList = new ArrayList<String>();
-    
+
 }

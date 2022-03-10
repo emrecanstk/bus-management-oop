@@ -1,5 +1,8 @@
 package bus.management.oop;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class BusCompany {
 
     static String name = "Kamil Koc";
@@ -7,6 +10,7 @@ public class BusCompany {
     int earnedMoney;
     int spentMoney;
     int totalMoney;
+    List<String> driverList = new ArrayList<String>();
 
     private static BusCompany company = new BusCompany();
 

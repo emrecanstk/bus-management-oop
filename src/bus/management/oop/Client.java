@@ -9,10 +9,9 @@ public class Client {
         this.name = name;
     }
 
-    public void BuyTicket(Bus bus, Journey journey,BusCompany company) {
+    public void BuyTicket(Bus bus, Journey journey) {
         if(bus.haveJourney == true) {
             bus.earnedMoney += journey.ticketPrice;
-            company.earnedMoney += journey.ticketPrice;
             bus.clientList.add(this.name);
         }
         else {

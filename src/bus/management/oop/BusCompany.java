@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BusCompany {
-
+    int id;
     String name;
     String phoneNumber;
     int earnedMoney;
@@ -12,5 +12,11 @@ public class BusCompany {
     int totalMoney;
     List<String> driverList = new ArrayList<String>();
     List<String> busList = new ArrayList<String>();
+
+    BusCompany(int id, String name, String phoneNumber) {
+        this.id = id;
+        this.name = name;
+        this.phoneNumber = phoneNumber;
+    }
 
 }

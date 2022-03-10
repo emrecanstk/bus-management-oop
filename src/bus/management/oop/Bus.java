@@ -8,5 +8,9 @@ public class Bus {
     int spentMoney;
     int totalMoney;
 
+    Bus(int id) {
+        this.id = id;
+    }
+
 
 }

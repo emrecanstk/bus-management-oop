@@ -12,4 +12,16 @@ public class Journey {
         this.ticketPrice = ticketPrice;
         this.fuelMoney = fuelMoney;
     }
+
+    public String getWhereToWhere() {
+        return whereToWhere;
+    }
+
+    public int getTicketPrice() {
+        return ticketPrice;
+    }
+
+    public int getFuelMoney() {
+        return fuelMoney;
+    }
 }

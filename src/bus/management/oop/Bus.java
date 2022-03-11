@@ -26,4 +26,23 @@ public class Bus {
 
     }
 
+    public int getEarnedMoney() {
+        return earnedMoney;
+    }
+
+    public int getSpentMoney() {
+        return spentMoney;
+    }
+
+    public int getTotalMoney() {
+        return totalMoney;
+    }
+
+    public boolean isHaveJourney() {
+        return haveJourney;
+    }
+
+    public List<Client> getClientList() {
+        return clientList;
+    }
 }

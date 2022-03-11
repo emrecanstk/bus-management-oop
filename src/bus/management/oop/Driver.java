@@ -12,4 +12,15 @@ public class Driver {
         this.fee = fee;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getFee() {
+        return fee;
+    }
+
+    public boolean isAvailable() {
+        return isAvailable;
+    }
 }

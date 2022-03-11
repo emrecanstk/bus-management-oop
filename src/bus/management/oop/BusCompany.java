@@ -24,4 +24,27 @@ public class BusCompany {
         System.out.println("company "+this.name+", bought a bus.");
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public int getEarnedMoney() {
+        return earnedMoney;
+    }
+
+    public int getSpentMoney() {
+        return spentMoney;
+    }
+
+    public int getTotalMoney() {
+        return totalMoney;
+    }
+
+    public List<Bus> getBusList() {
+        return busList;
+    }
 }

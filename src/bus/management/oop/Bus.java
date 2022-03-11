@@ -18,10 +18,13 @@ public class Bus {
     public void StartJourney(Journey journey, Driver driver) {
         if(driver.isAvailable == true && this.haveJourney == false) {
             this.haveJourney = true;
+            driver.isAvailable = false;
             this.spentMoney += journey.fuelMoney;
             this.spentMoney += driver.fee;
             System.out.println("New Journey: "+journey.whereToWhere+"\nPrice: "+journey.ticketPrice+" $");
-
+        }
+        else {
+            System.out.println("Check availablity.");
         }
 
     }
@@ -35,11 +38,17 @@ public class Bus {
     }
 
     public int getTotalMoney() {
+        totalMoney = earnedMoney - spentMoney;
         return totalMoney;
     }
 
-    public boolean isHaveJourney() {
-        return haveJourney;
+    public String isHaveJourney() {
+        if(haveJourney == true) {
+            return "This bus have a journey right now.";
+        }
+        else {
+            return "This bus is available";
+        }
     }
 
     public List<Client> getClientList() {

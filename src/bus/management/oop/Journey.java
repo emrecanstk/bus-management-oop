@@ -24,4 +24,13 @@ public class Journey {
     public int getFuelMoney() {
         return fuelMoney;
     }
+
+    public void setTicketPrice(int ticketPrice) {
+        this.ticketPrice = ticketPrice;
+    }
+
+    public void setFuelMoney(int fuelMoney) {
+        this.fuelMoney = fuelMoney;
+    }
+    
 }

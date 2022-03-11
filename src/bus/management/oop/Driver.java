@@ -23,4 +23,9 @@ public class Driver {
     public boolean isAvailable() {
         return isAvailable;
     }
+
+    public void setFee(int fee) {
+        this.fee = fee;
+    }
+
 }

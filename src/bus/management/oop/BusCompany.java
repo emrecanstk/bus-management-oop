@@ -47,4 +47,13 @@ public class BusCompany {
     public List<Bus> getBusList() {
         return busList;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
 }

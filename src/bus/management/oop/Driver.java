@@ -6,9 +6,10 @@ public class Driver {
     int fee;
     boolean isAvailable = true;
 
-    Driver(int id, String name) {
+    Driver(int id, String name, int fee) {
         this.id = id;
         this.name = name;
+        this.fee = fee;
     }
 
 }

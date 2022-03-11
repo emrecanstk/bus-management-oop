@@ -1,2 +1,64 @@
-# bus-management-oop
- An example for my oop studies.
+---
+BusCompany
+-
+- id
+- name
+- phoneNumber
+- busList
+- BusCompany()
+- BuyBus()
+- getName()
+- getPhoneNumber()
+- getBusList()
+- setName()
+- setPhoneNumber()
+---
+Bus
+-
+- id
+- earnedMoney
+- spentMoney
+- totalMoney
+- haveJourney
+- clientList
+- Bus()
+- StartJourney()
+- getEarnedMoney()
+- getSpentMoney()
+- getTotalMoney()
+- isHaveJourney()
+- getClientList()
+---
+Journey
+-
+- id
+- whereToWhere
+- ticketPrice
+- fuelMoney
+- Journey()
+- getWhereToWhere()
+- getTicketPrice()
+- getFuelMoney()
+- setTicketPrice()
+- setFuelMoney()
+---
+Driver
+-
+- id
+- name
+- fee
+- isAvailable
+- Driver()
+- getName()
+- getFee()
+- isAvailable()
+- setFee()
+---
+Client
+-
+- id
+- name
+- Client()
+- BuyTicket()
+- getName()
+---

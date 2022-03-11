@@ -64,6 +64,9 @@ public class Main {
 
         System.out.println(bus1.getTotalMoney());
 
+        System.out.println(kamilKoc.getBusList());
+        System.out.println(kale.getBusList());
+
     }
 
 }

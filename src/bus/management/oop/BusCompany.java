@@ -10,7 +10,7 @@ public class BusCompany {
     int earnedMoney;
     int spentMoney;
     int totalMoney;
-    List<Bus> busList = new ArrayList<Bus>();
+    List<Integer> busList = new ArrayList<Integer>();
 
     BusCompany(int id, String name, String phoneNumber) {
         this.id = id;
@@ -20,7 +20,7 @@ public class BusCompany {
 
     public void BuyBus(Bus bus) {
         this.spentMoney += 5000;
-        this.busList.add(bus);
+        this.busList.add(bus.id);
         System.out.println("company "+this.name+", bought a bus.");
     }
 
@@ -44,7 +44,7 @@ public class BusCompany {
         return totalMoney;
     }
 
-    public List<Bus> getBusList() {
+    public List<Integer> getBusList() {
         return busList;
     }
 

@@ -9,7 +9,7 @@ public class Bus {
     int spentMoney;
     int totalMoney;
     boolean haveJourney = false;
-    List<Client> clientList = new ArrayList<Client>();
+    List<Integer> clientList = new ArrayList<Integer>();
 
     Bus(int id) {
         this.id = id;
@@ -51,7 +51,7 @@ public class Bus {
         }
     }
 
-    public List<Client> getClientList() {
+    public List<Integer> getClientList() {
         return clientList;
     }
 

@@ -16,9 +16,10 @@ public class Bus {
     }
 
     public void StartJourney(Journey journey, Driver driver) {
-        if(driver.isAvailable == true) {
+        if(driver.isAvailable == true && this.haveJourney == false) {
             this.haveJourney = true;
             this.spentMoney += journey.fuelMoney;
+            this.spentMoney += driver.fee;
 
         }
 

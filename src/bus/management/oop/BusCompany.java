@@ -10,7 +10,6 @@ public class BusCompany {
     int earnedMoney;
     int spentMoney;
     int totalMoney;
-    List<String> driverList = new ArrayList<String>();
     List<String> busList = new ArrayList<String>();
 
     BusCompany(int id, String name, String phoneNumber) {

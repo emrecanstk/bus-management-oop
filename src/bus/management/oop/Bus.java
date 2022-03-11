@@ -20,6 +20,7 @@ public class Bus {
             this.haveJourney = true;
             this.spentMoney += journey.fuelMoney;
             this.spentMoney += driver.fee;
+            System.out.println("New Journey: "+journey.whereToWhere+"\nPrice: "+journey.ticketPrice+" $");
 
         }
 

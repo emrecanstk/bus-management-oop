@@ -21,6 +21,7 @@ public class BusCompany {
     public void BuyBus(Bus bus) {
         this.spentMoney += 5000;
         this.busList.add(bus);
+        System.out.println("company "+this.name+", bought a bus.");
     }
 
 }

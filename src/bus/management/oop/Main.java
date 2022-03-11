@@ -39,6 +39,13 @@ public class Main {
         Client yusuf = new Client(11,"Yusuf Biçer");Client hatice = new Client(19,"Hatice Vırdınlı");
         Client orcun = new Client(12,"Orçun Tortu");Client didem = new Client(20,"Didem Coşkun");
 
+        kamilKoc.BuyBus(bus1);
+        kamilKoc.BuyBus(bus2);
+        kamilKoc.BuyBus(bus3);
+        kamilKoc.BuyBus(bus4);
+        kale.BuyBus(bus5);
+        kale.BuyBus(bus6);
+        kale.BuyBus(bus7);
 
 
     }

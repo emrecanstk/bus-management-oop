@@ -10,12 +10,17 @@ public class BusCompany {
     int earnedMoney;
     int spentMoney;
     int totalMoney;
-    List<String> busList = new ArrayList<String>();
+    List<Bus> busList = new ArrayList<Bus>();
 
     BusCompany(int id, String name, String phoneNumber) {
         this.id = id;
         this.name = name;
         this.phoneNumber = phoneNumber;
+    }
+
+    public void BuyBus(Bus bus) {
+        this.spentMoney += 5000;
+        this.busList.add(bus);
     }
 
 }

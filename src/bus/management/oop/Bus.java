@@ -9,7 +9,7 @@ public class Bus {
     int spentMoney;
     int totalMoney;
     boolean haveJourney = false;
-    List<String> clientList = new ArrayList<String>();
+    List<Client> clientList = new ArrayList<Client>();
 
     Bus(int id) {
         this.id = id;

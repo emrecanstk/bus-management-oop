@@ -63,9 +63,18 @@ public class Main {
         eray.BuyTicket(bus1,mkp_corlu);
 
         System.out.println(bus1.getTotalMoney());
-
         System.out.println(kamilKoc.getBusList());
         System.out.println(kale.getBusList());
+        System.out.println(wanda.getFee());
+        System.out.println(wanda.getName());
+        System.out.println(nick.isAvailable());
+        System.out.println(bus1.getClientList());
+        System.out.println(gulnur.getName());
+        System.out.println(mkp_corlu.getWhereToWhere());
+        System.out.println(mkp_corlu.getFuelMoney());
+        System.out.println(ankara_eskisehir.getTicketPrice());
+        System.out.println(kale.getName());
+        System.out.println(kale.getPhoneNumber());
 
     }
 

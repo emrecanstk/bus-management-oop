@@ -12,7 +12,7 @@ public class Client {
     public void BuyTicket(Bus bus, Journey journey) {
         if(bus.haveJourney == true) {
             bus.earnedMoney += journey.ticketPrice;
-            bus.clientList.add(this.id);
+            bus.clientList.add(this.name);
             System.out.println("client "+this.name+" bought a ticket for "+journey.whereToWhere+" journey.");
         }
         else {
